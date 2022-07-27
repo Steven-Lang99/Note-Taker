@@ -31,7 +31,7 @@ Please click on the license to read more.
 ## Usage
 Please follow to screenshots for the usage of the application:
 
-![alt text](assets/images/screenshot.png)
+[https://watch.screencastify.com/v/eaLMtrQNb5Y8QY1CezU7]
 
 ## Credits
 List of collaborators on the application:
