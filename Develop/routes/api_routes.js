@@ -4,6 +4,7 @@ const path = require('path')
 const uuid = require('uuid').v4
 const db = path.join(__dirname, '../db/db.json')
 
+//Function to get json data
 function getNoteData() {
     return fs.promises.readFile(db, 'utf8')
         .then(data => JSON.parse(data));
@@ -11,7 +12,7 @@ function getNoteData() {
 }
 
 
-
+// To get all note data from getNoteData function
 note_router.get('/notes', (request, response) => {
     getNoteData()
         .then(note_data => {
@@ -20,7 +21,7 @@ note_router.get('/notes', (request, response) => {
         .catch(err => console.log(err))
 })
 
-
+// To create the notes and add id to them so you can click on them and they show up in the main body.
 note_router.post('/notes', (request, response) => {
     getNoteData()
         .then(note_data => {
