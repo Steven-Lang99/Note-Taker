@@ -34,7 +34,7 @@ note_router.post('/notes', (request, response) => {
 
             fs.promises.writeFile(db, JSON.stringify(note_data))
                 .then((err) => {
-                    console.log('todo updated')
+
 
                 })
                 .catch(err => console.log(err));
