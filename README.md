@@ -29,9 +29,9 @@ Please follow these steps to install:
 Please click on the license to read more.
 
 ## Usage
-Please follow to screenshots for the usage of the application:
+Please follow the screenshot for the usage of the application:
 
-[https://watch.screencastify.com/v/eaLMtrQNb5Y8QY1CezU7]
+![Screenshot](/Develop/img/Screenshot%202022-08-14%20172619.png)
 
 ## Credits
 List of collaborators on the application:
